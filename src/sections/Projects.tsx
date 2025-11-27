@@ -7,6 +7,7 @@ import cinetixApp from "@/assets/images/cinetix-id.png";
 import recipeMasterApp from "@/assets/images/recipe-master.png";
 import ealpixApp from "@/assets/images/ealpix.png";
 import kurirgoApp from "@/assets/images/kurirgo.png";
+import kurirgoPromotion from "@/assets/images/kurirgo-promotion.png";
 import Image from "next/image";
 import CheckIcon from "@/assets/icons/check-circle.svg";
 import ArrowRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -23,6 +24,8 @@ import FlutterBloc from "@/assets/icons/bloc.svg";
 import FlutterRiverpod from "@/assets/icons/flutter-riverpod.svg";
 import Kotlin from "@/assets/icons/kotlin.svg";
 import OneSignal from "@/assets/icons/onesignal.svg";
+import nextJs from "@/assets/icons/nextjs.svg";
+import tailwindCss from "@/assets/icons/tailwind.svg";
 import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
 
@@ -122,6 +125,19 @@ const portfolioAndroidProjects = [
 ];
 
 const portfolioWebsiteProjects = [
+  {
+    company: "PT. Jogiia Digital Indotech",
+    year: "2025",
+    title: "KurirGo - Promotion Page",
+    results: [
+      { title: "Dynamic Promotional Campaigns and Special Offers" },
+      { title: "Integrated Shipping Service Information" },
+      { title: "User-Friendly Discount and Promotion Display" },
+    ],
+    link: "https://www.kurirgo.id/promotion",
+    image: kurirgoPromotion,
+    tech: [Javascript, nextJs, tailwindCss],
+  },
   {
     company: "PT. Adma Digital Solusi",
     year: "2023",
