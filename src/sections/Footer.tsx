@@ -13,6 +13,10 @@ const footerLinks = [
     title: "Instagram",
     href: "https://www.instagram.com/fernandjrc_/",
   },
+  {
+    title: "Email",
+    href: "mailto:fernandjerico96@gmail.com",
+  },
 ];
 
 export const Footer = () => {

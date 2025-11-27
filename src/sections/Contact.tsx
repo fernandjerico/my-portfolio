@@ -22,8 +22,7 @@ export const ContactSection = () => {
             </div>
             <div>
               <a
-                href="https://www.linkedin.com/in/fernand-jerico"
-                target="_blank"
+                href="mailto:fernandjerico96@gmail.com"
                 className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 w-max border border-gray-900">
                 <span className="font-semibold">Contact Me</span>
                 <ArrowRightIcon className="size-4" />

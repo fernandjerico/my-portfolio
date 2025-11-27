@@ -5,6 +5,8 @@ import clinicManagementApp from "@/assets/images/clinic-management-app.png";
 import findfluence from "@/assets/images/findfluence.png";
 import cinetixApp from "@/assets/images/cinetix-id.png";
 import recipeMasterApp from "@/assets/images/recipe-master.png";
+import ealpixApp from "@/assets/images/ealpix.png";
+import kurirgoApp from "@/assets/images/kurirgo.png";
 import Image from "next/image";
 import CheckIcon from "@/assets/icons/check-circle.svg";
 import ArrowRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -20,10 +22,41 @@ import Php from "@/assets/icons/php.svg";
 import FlutterBloc from "@/assets/icons/bloc.svg";
 import FlutterRiverpod from "@/assets/icons/flutter-riverpod.svg";
 import Kotlin from "@/assets/icons/kotlin.svg";
+import OneSignal from "@/assets/icons/onesignal.svg";
 import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
 
 const portfolioMobileProjects = [
+  {
+    company: "PT. Jogiia Digital Indotech",
+    year: "2025",
+    title: "Ealpix - Parental Control App",
+    results: [
+      { title: "Real-Time Location Tracking" },
+      { title: "Screen Monitoring, Remote Camera, Audio One Way" },
+      {
+        title: "Integrated Flutter with Native Kotlin",
+      },
+    ],
+    link: "https://ealpix.com/",
+    image: ealpixApp,
+    tech: [Dart, Flutter, Firebase, Kotlin],
+  },
+  {
+    company: "PT. Jogiia Digital Indotech",
+    year: "2025",
+    title: "KurirGo - Shipping Aggregator App",
+    results: [
+      { title: "Real-Time Shipment Tracking and Automated Order Processing" },
+      { title: "Comprehensive Shipping Analytics Dashboard" },
+      {
+        title: "User-Centric Interface for Individual Users and Online Sellers",
+      },
+    ],
+    link: "https://kurirgo.id/",
+    image: kurirgoApp,
+    tech: [Dart, Flutter, FlutterBloc, OneSignal],
+  },
   {
     company: "Fernand Jerico",
     year: "2024",

@@ -1,5 +1,5 @@
 "use client";
-import myPhoto from "@/assets/images/fernand.png";
+import myPhoto from "@/assets/images/fernand.jpg";
 import Image from "next/image";
 import ArrowDown from "@/assets/icons/arrow-down.svg";
 import grainImage from "@/assets/images/grain.jpg";

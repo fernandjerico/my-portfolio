@@ -19,7 +19,7 @@ import FlutterRiverpod from "@/assets/icons/flutter-riverpod.svg";
 import Kotlin from "@/assets/icons/kotlin.svg";
 import React from "@/assets/icons/react.svg";
 import mapImage from "@/assets/images/map.png";
-import myPhoto from "@/assets/images/fernand.png";
+import myPhoto from "@/assets/images/fernand.jpg";
 import { CardHeader } from "@/components/CardHeader";
 import { ToolboxItem } from "@/components/ToolboxItem";
 import { motion } from "framer-motion";
