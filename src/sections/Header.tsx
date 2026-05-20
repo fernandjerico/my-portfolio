@@ -10,6 +10,7 @@ export const Header = () => {
       const sections = [
         "hero-section",
         "project-section",
+        "experience-section",
         "about-section",
         "contact-section",
       ];
@@ -69,6 +70,15 @@ export const Header = () => {
               : ""
           }`}>
           Projects
+        </a>
+        <a
+          href="#experience-section"
+          className={`nav-item ${
+            activeSection === "experience-section"
+              ? "bg-white text-gray-900 hover:bg-white/70 hover:text-gray-900"
+              : ""
+          }`}>
+          Experience
         </a>
         <a
           href="#about-section"
