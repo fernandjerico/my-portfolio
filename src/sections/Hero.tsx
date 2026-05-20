@@ -114,7 +114,7 @@ export const HeroSection = () => {
         <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">
           Building Exceptional User Experience
         </h1>
-        <p className="mt-4 text-center text-white/60 md:text-lg">
+        <p className="mt-4 text-center text-white/60 md:text-lg px-4 md:px-0">
           I Specialize in transforming designs into functional, high-performing
           mobile application. Lets discuss your next project.
         </p>

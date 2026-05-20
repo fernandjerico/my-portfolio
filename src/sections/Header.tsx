@@ -49,7 +49,7 @@ export const Header = () => {
   return (
     <div className="flex justify-center items-center fixed top-3 w-full z-10">
       <motion.nav
-        className="flex gap-1 p-0.5 border border-white/15 rounded-full bg-white/10 backdrop-blur"
+        className="flex gap-0.5 md:gap-1 p-0.5 border border-white/15 rounded-full bg-white/10 backdrop-blur"
         initial={{ y: -100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, ease: "easeOut" }}>
