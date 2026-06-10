@@ -225,7 +225,7 @@ export const ProjectsSection = () => {
                       <li
                         key={result.title}
                         className="flex gap-2 text-sm md:text-base text-white/50">
-                        <CheckIcon className="size-5 md:size-6" />
+                        <CheckIcon className="size-5 md:size-6 flex-shrink-0" />
                         <span className="whitespace-pre-line">
                           {result.title}
                         </span>
