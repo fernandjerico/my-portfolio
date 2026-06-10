@@ -179,7 +179,7 @@ export const ProjectsSection = () => {
                 : ""
             }`}
             onClick={() => setActiveTab("mobile")}>
-            Mobile
+            Flutter
           </button>
           <button
             className={`h-10 md:h-12 w-full md:w-auto px-4 md:px-6 rounded-xl font-semibold ${
@@ -188,7 +188,7 @@ export const ProjectsSection = () => {
                 : ""
             }`}
             onClick={() => setActiveTab("android")}>
-            Android
+            Kotlin
           </button>
           <button
             className={`h-10 md:h-12 w-full md:w-auto px-4 md:px-6 rounded-xl font-semibold ${
